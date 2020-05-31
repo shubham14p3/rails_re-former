@@ -1,74 +1,76 @@
-# Project Name
+# re-former
 
-> One paragraph statement about the project.
+In this project, we learned about forms, from the very basic to the Railsy-er ones. We learned how the information is gotten from the form and passed to the controller to create a new record in the database. We applied the previously acquired knowledge of Validations and flash messages.
 
-![screenshot](./app_screenshot.png)
+![screenshot1](app/assets/images/screenshot01.png)
 
-Additional description about the project and its features.
+![screenshot1](app/assets/images/screenshot02.png)
 
-## Built With
+![screenshot1](app/assets/images/screenshot04.png)
 
-- Major languages,
-- frameworks,
-- technologies used
+![screenshot1](app/assets/images/screenshot05.png)
 
-## Live Demo
+# Requirements
 
-[Live Demo Link](https://livedemo.com)
-
+- Ruby > 2.6.5
+- Rails > 6.0.3
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get started with the app, cd to the directory where you would like the repo to live by typing on your terminal:
 
+```
+$ cd <directory>
+```
 
-To get a local copy up and running follow these simple example steps.
+Clone the repo typing:
 
-### Prerequisites
+```
+$ git clone https://github.com/lmaldonadoch/re-former.git
+```
 
-### Setup
+Install the needed gems:
 
-### Install
+```
+$ bundle install
+```
 
-### Usage
+Finally, migrate the database:
 
-### Run tests
+```
+$ rails db:migrate
+```
 
-### Deployment
+## Built With
 
-
+- Ruby
+- Rails
+- VSCode
 
 ## Authors
 
-👤 **Author1**
+👤 **Shubham Raj**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ShubhamRaj](https://github.com/shubham14p3)
+- Linkedin: [Shubham14p3](https://www.linkedin.com/in/shubham14p3/)
 
-👤 **Author2**
+👤 **Luis Angel Maldonado**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@lmaldonadoch](https://github.com/lmaldonadoch)
+- Twitter: [@LuisAngelMCh](https://twitter.com/LuisAngelMCh)
+- Linkedin: [linkedin](https://www.linkedin.com/in/lmaldonadoch)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/shubham14p3/micro_reddit/issues/).
+
+## Acknowledgement
+
+- Project requested by [Microverse Program](https://www.microverse.org/).
+- Original project from [The Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.

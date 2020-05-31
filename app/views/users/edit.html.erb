@@ -1,0 +1,19 @@
+<%= form_for @user do |f|%>
+
+  <ul>
+  <% @user.errors.full_messages.each do |error| %>
+    <li><%= error %></li>
+  <% end %>
+  </ul>
+  <%= f.label :username, 'Uername you want to edit' %> <br>
+  <%= f.text_field :username %> <br> <br>
+  <%= f.label :email,'Email you want to edit' %> <br> 
+  <%= f.email_field :email%> <br><br>
+  <%= f.label :password %> <br>
+  <%= f.password_field :password %> <br>
+  <br>
+  <%= f.submit "Submit" %>
+
+  <p class="flash"><%= flash.notice %></p>
+
+<%end%>
