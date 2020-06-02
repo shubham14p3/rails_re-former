@@ -1,6 +1,6 @@
 # re-former
 
-In this project, we learned about forms, from the very basic to the Railsy-er ones. We learned how the information is gotten from the form and passed to the controller to create a new record in the database. We applied the previously acquired knowledge of Validations and flash messages.
+In this project, we learned about forms, from the very basic to the Railsy-er ones. We learned how the information is gotten from the form and passed to the controller to create a new record in the database. We applied the previously acquired  knowledge of Validations and flash messages.
 
 ![screenshot1](app/assets/images/screenshot01.png)
 
